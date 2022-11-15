@@ -1,8 +1,8 @@
 import FetchWrapper from "./fetch-wrapper.js";
 
-const reroll = document.querySelector("#dice");
-const idNumber = document.querySelector(`#title`);
-const text = document.querySelector(`#text`);
+const reroll = document.querySelector(".dice");
+const idNumber = document.querySelector(`.title`);
+const text = document.querySelector(`.text`);
 const API = new FetchWrapper(`https://api.adviceslip.com`);
 
 const newAdvice = () =>
